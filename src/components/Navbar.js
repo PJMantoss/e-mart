@@ -20,11 +20,11 @@ const Navbar = () => {
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
                 <form class="d-flex">
