@@ -30,6 +30,7 @@ const Navbar = () => {
                 <div className="buttons">
                     <a href="" className='btn btn-outline-dark'>
                         <i className=''></i>
+                        Login
                     </a>
                 </div>
                 </div>
