@@ -3,7 +3,7 @@ import React from 'react'
 export const Home = () => {
   return (
     <div className='hero'>
-        <div class="card bg-dark text-white"">
+        <div class="card bg-dark text-white">
             <img src="..." class="card-img" alt="..." />
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
