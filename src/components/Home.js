@@ -8,6 +8,7 @@ export const Home = () => {
             <div class="card-img-overlay">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick up the bulk of the card's content.</p>
+                <p class="card-text">Some quick up the bulk of the card's content.</p>
             </div>
         </div>
     </div>
