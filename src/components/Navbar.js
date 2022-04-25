@@ -38,8 +38,8 @@ const Navbar = () => {
                         Register
                     </a>
 
-                    <a href="" className='btn btn-outline-dark'>
-                        <i className='fa fa-sign-in me-1 ms-2'></i>
+                    <a href="" className='btn btn-outline-dark ms-2'>
+                        <i className='fa fa-sign-in me-1'></i>
                         Cart(0)
                     </a>
                 </div>
