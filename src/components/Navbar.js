@@ -34,12 +34,12 @@ const Navbar = () => {
                     </a>
 
                     <a href="" className='btn btn-outline-dark'>
-                        <i className='fa fa-sign-in me-1 ms-1'></i>
+                        <i className='fa fa-sign-in me-1 ms-2'></i>
                         Register
                     </a>
 
                     <a href="" className='btn btn-outline-dark'>
-                        <i className='fa fa-sign-in me-1 ms-1'></i>
+                        <i className='fa fa-sign-in me-1 ms-2'></i>
                         Cart(0)
                     </a>
                 </div>
