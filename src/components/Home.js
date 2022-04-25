@@ -7,8 +7,7 @@ export const Home = () => {
             <img src="./assets/bg.jpg" class="card-img" alt="Background" />
             <div class="card-img-overlay">
                 <div className='container'>
-                    <h5 class="card-title display-3 fw-bolder mb-0">Card title</h5>
-                    <p class="card-text">Some quick up the bulk of the card's content.</p>
+                    <h5 class="card-title display-3 fw-bolder mb-0">NEW SEASON ARRIVALS</h5>
                     <p class="card-text">Some quick up the bulk of the card's content.</p>
                 </div>
             </div>
