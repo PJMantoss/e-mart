@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Home = () => {
+const Home = () => {
   return (
     <div className='hero'>
         <div class="card bg-dark text-white border-0">
@@ -15,3 +15,5 @@ export const Home = () => {
     </div>
   )
 }
+
+export default Home;
