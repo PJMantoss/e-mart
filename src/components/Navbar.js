@@ -15,7 +15,7 @@ const Navbar = () => {
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Link</a>
                     </li>
                 </ul>
                 <form class="d-flex">
