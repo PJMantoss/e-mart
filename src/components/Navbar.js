@@ -28,7 +28,7 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <div className="buttons">
-                    <a href="" className=''></a>
+                    <a href="" className=''>Login</a>
                 </div>
                 </div>
             </div>
