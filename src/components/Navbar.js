@@ -29,7 +29,7 @@ const Navbar = () => {
                 </ul>
                 <div className="buttons">
                     <a href="" className='btn btn-outline-dark'>
-                        <i className='fa fa-login'></i>
+                        <i className='fa fa-sign-in me-1'></i>
                         Login
                     </a>
                 </div>
