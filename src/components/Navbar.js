@@ -27,7 +27,9 @@ const Navbar = () => {
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
-                <div className="buttons"></div>
+                <div className="buttons">
+                    <a href="" className=''></a>
+                </div>
                 </div>
             </div>
         </nav>
