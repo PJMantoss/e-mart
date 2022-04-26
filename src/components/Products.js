@@ -4,7 +4,7 @@ const Products = () => {
   const [data, setData] = useState([]);
   const [filter, setFilter] = useState(data);
   const [loading, setLoading] = useState(false);
-
+//the useState hook causes a re-render. To prevent an infinite loop we use useRef
   let componentMounted = useRef(true);
 
   useEffect(() => {
