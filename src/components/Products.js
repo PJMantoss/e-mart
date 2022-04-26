@@ -12,6 +12,9 @@ const Products = () => {
       setLoading(true);
       const response = await fetch("https://fakestoreapi.com/api");
     };
+
+    if(){};
+    
     getProducts();
   }, []);
 
