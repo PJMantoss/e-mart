@@ -29,6 +29,10 @@ const Products = () => {
     getProducts();
   }, []);
 
+  const Loading = () => {};
+
+  const ShowProducts = () => {};
+
   return (
     <div>
       <div className='container my-5 py-5'>
@@ -38,7 +42,9 @@ const Products = () => {
             <hr />
           </div>
         </div>
-        <div className='row justify-content-center'></div>
+        <div className='row justify-content-center'>
+
+        </div>
       </div>
     </div>
   )
