@@ -38,6 +38,7 @@ const Products = () => {
             <hr />
           </div>
         </div>
+        <div className='row '></div>
       </div>
     </div>
   )
