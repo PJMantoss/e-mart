@@ -38,7 +38,7 @@ const Products = () => {
             <hr />
           </div>
         </div>
-        <div className='row '></div>
+        <div className='row justify-content-center'></div>
       </div>
     </div>
   )
