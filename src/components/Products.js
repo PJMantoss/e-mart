@@ -13,7 +13,11 @@ const Products = () => {
       const response = await fetch("https://fakestoreapi.com/api");
     };
 
-    if(componentMounted){};
+    if(componentMounted){
+      setData();
+      setFilter();
+      setLoading();
+    };
 
     getProducts();
   }, []);
