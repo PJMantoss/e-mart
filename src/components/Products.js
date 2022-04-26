@@ -38,9 +38,11 @@ const Products = () => {
   };
 
   const ShowProducts = () => {
-    <div className='buttons'>
-      <button className='btn btn-outline-dark'></button>
-    </div>
+    return(
+      <div className='buttons'>
+        <button className='btn btn-outline-dark'></button>
+      </div>
+    );
   };
 
   return (
