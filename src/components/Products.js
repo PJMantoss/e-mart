@@ -39,7 +39,7 @@ const Products = () => {
 
   const ShowProducts = () => {
     return(
-      <div className='buttons'>
+      <div className='buttons d-flex justify-content-center'>
         <button className='btn btn-outline-dark'>All</button>
         <button className='btn btn-outline-dark me-2'>Men's Clothing</button>
         <button className='btn btn-outline-dark me-2'>Women's Clothing</button>
