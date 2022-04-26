@@ -35,6 +35,7 @@ const Products = () => {
         <div className='row'>
           <div className='col-12 mb-5'>
             <h1 className='display-6 fw-bolder text-center'>Latest Products</h1>
+            <hr />
           </div>
         </div>
       </div>
