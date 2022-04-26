@@ -8,6 +8,7 @@ const Products = () => {
   let componentMounted = true;
 
   useEffect(() => {
+    const getProducts = () => {};
     getProducts();
   }, []);
 
