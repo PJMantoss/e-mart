@@ -43,7 +43,7 @@ const Products = () => {
           </div>
         </div>
         <div className='row justify-content-center'>
-
+          {loading ? <Loading /> : <ShowProducts />}
         </div>
       </div>
     </div>
