@@ -5,7 +5,9 @@ const Products = () => {
   const [filter, setFilter] = useState(data);
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    getProducts();
+  }, []);
 
   return (
     <div>Products</div>
