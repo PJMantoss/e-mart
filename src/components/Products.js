@@ -13,8 +13,8 @@ const Products = () => {
       const response = await fetch("https://fakestoreapi.com/api");
     };
 
-    if(){};
-    
+    if(componentMounted){};
+
     getProducts();
   }, []);
 
