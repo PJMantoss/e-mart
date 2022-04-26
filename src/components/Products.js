@@ -14,7 +14,7 @@ const Products = () => {
     };
 
     if(componentMounted){
-      setData();
+      setData(await response.clone().json());
       setFilter();
       setLoading();
     };
