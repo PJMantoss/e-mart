@@ -15,8 +15,8 @@ const Products = () => {
 
     if(componentMounted){
       setData(await response.clone().json());
-      setFilter();
-      setLoading();
+      setFilter(await response.json());
+      setLoading(false);
     };
 
     getProducts();
