@@ -39,12 +39,13 @@ const Products = () => {
 
   const ShowProducts = () => {
     return(
-      <>
-          <div className='buttons'>
-            <button className='btn btn-outline-dark'>All</button>
-            <button className='btn btn-outline-dark'>Men's Clothing</button>
-          </div>
-      </>
+      <div className='buttons'>
+        <button className='btn btn-outline-dark'>All</button>
+        <button className='btn btn-outline-dark me-2'>Men's Clothing</button>
+        <button className='btn btn-outline-dark me-2'>Women's Clothing</button>
+        <button className='btn btn-outline-dark me-2'>Jewelry</button>
+        <button className='btn btn-outline-dark me-2'>Electronics</button>
+      </div>
     );
   };
 
