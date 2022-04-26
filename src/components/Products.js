@@ -19,6 +19,8 @@ const Products = () => {
       setLoading(false);
     };
 
+    return componentMounted = false;
+
     getProducts();
   }, []);
 
