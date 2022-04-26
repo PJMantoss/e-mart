@@ -10,6 +10,7 @@ const Products = () => {
   useEffect(() => {
     const getProducts = async () => {
       setLoading(true);
+      const response = await fetch();
     };
     getProducts();
   }, []);
