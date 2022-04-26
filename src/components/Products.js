@@ -8,7 +8,9 @@ const Products = () => {
   let componentMounted = true;
 
   useEffect(() => {
-    const getProducts = async () => {};
+    const getProducts = async () => {
+      setLoading(true);
+    };
     getProducts();
   }, []);
 
