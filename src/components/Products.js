@@ -39,9 +39,12 @@ const Products = () => {
 
   const ShowProducts = () => {
     return(
-      <div className='buttons'>
-        <button className='btn btn-outline-dark'></button>
-      </div>
+      <>
+          <div className='buttons'>
+            <button className='btn btn-outline-dark'>All</button>
+            <button className='btn btn-outline-dark'>Men's Clothing</button>
+          </div>
+      </>
     );
   };
 
