@@ -29,13 +29,13 @@ const Products = () => {
     getProducts();
   }, []);
 
-  // const Loading = () => {
-  //   return(
-  //     <>
-  //         Loading...
-  //     </>
-  //   )
-  // };
+  const Loading = () => {
+    return(
+      <>
+          <div></div>
+      </>
+    )
+  };
 //loading ? <Loading /> : 
   const ShowProducts = () => {
     return(
