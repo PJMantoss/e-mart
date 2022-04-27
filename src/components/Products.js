@@ -53,11 +53,31 @@ const Products = () => {
     return(
       <>
           <div className='buttons d-flex justify-content-center mb-5 pb-5'>
-            <button className='btn btn-outline-dark' onClick={() => setFilter()}>All</button>
-            <button className='btn btn-outline-dark me-2' onClick={() => setFilter()}>Men's Clothing</button>
-            <button className='btn btn-outline-dark me-2' onClick={() => setFilter()}>Women's Clothing</button>
-            <button className='btn btn-outline-dark me-2' onClick={() => setFilter()}>Jewelry</button>
-            <button className='btn btn-outline-dark me-2' onClick={() => setFilter()}>Electronics</button>
+            <button className='btn btn-outline-dark' onClick={() => setFilter(data)}>All</button>
+            <button 
+              className='btn btn-outline-dark me-2' 
+              onClick={() => setFilter()}
+            >
+              Men's Clothing
+            </button>
+            <button 
+              className='btn btn-outline-dark me-2' 
+              onClick={() => filterProduct()}
+            >
+              Women's Clothing
+            </button>
+            <button 
+              className='btn btn-outline-dark me-2' 
+              onClick={() => filterProduct()}
+            >
+              Jewelry
+            </button>
+            <button 
+              className='btn btn-outline-dark me-2' 
+              onClick={() => filterProduct()}
+            >
+              Electronics
+            </button>
           </div>
           {filter.map(product => {
             return(
