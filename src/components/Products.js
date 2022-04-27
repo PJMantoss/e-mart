@@ -52,7 +52,7 @@ const Products = () => {
               <>
                 <div className='col-md-3'>
                   <div class="card">
-                    <img src={product.image} class="card-img-top" alt={product.title} />
+                    <img src={product.image} class="card-img-top" alt={product.title} height="250px" />
                     <div class="card-body">
                       <h5 class="card-title">{product.title.substring(0, 12)}</h5>
                       <p class="card-text">${product.price}</p>
