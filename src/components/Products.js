@@ -51,7 +51,7 @@ const Products = () => {
 //loading ? <Loading /> : 
 
 const filterProduct = (cat) => {
-  const updatedList = () => {x => x.category === cat};
+  const updatedList = data.filter(x => x.category === cat);
   setFilter(updatedList);
 };
 
