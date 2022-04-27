@@ -36,7 +36,7 @@ const Products = () => {
       </>
     )
   };
-
+//loading ? <Loading /> : 
   const ShowProducts = () => {
     return(
       <>
