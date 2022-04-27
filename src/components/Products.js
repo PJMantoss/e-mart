@@ -32,7 +32,7 @@ const Products = () => {
   const Loading = () => {
     return(
       <>
-          <div></div>
+          <div className='col-md-3'></div>
       </>
     )
   };
