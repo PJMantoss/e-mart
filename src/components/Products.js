@@ -56,7 +56,7 @@ const Products = () => {
                     <div class="card-body">
                       <h5 class="card-title">{product.title.substring(0, 12)}</h5>
                       <p class="card-text">${product.price}</p>
-                      <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+                      <a href="#" class="btn btn-outline-dark">Buy Now</a>
                     </div>
                   </div>
                 </div>
