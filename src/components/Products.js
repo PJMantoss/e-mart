@@ -78,9 +78,9 @@ const filterProduct = (cat) => {
 
             <button 
               className='btn btn-outline-dark me-2' 
-              onClick={() => filterProduct("jewelry")}
+              onClick={() => filterProduct("jewelery")}
             >
-              Jewelry
+              Jewelery
             </button>
 
             <button 
