@@ -50,7 +50,7 @@ const Products = () => {
           {filter.map(product => {
             return(
               <>
-              <    div className=''></div>
+                <div className=''></div>
               </>
             )
           })}
