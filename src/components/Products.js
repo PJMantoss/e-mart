@@ -51,7 +51,7 @@ const Products = () => {
             return(
               <>
                 <div className='col-md-3'>
-                  <div class="card" style="width: 18rem;">
+                  <div class="card">
                     <img src="..." class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
