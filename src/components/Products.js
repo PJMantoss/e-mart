@@ -47,7 +47,9 @@ const Products = () => {
             <button className='btn btn-outline-dark me-2'>Jewelry</button>
             <button className='btn btn-outline-dark me-2'>Electronics</button>
           </div>
-          {filter.map(product => {})}
+          {filter.map(product => {
+            return()
+          })}
       </>
     );
   };
