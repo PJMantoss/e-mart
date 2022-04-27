@@ -15,7 +15,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <NavLink className="nav-link active" aria-current="page" to="#">
+                        <NavLink className="nav-link active" aria-current="page" to="/">
                             Home
                         </NavLink>
                     </li>
@@ -27,28 +27,28 @@ const Navbar = () => {
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" to="#">About</a>
+                        <NavLink className="nav-link" to="/about">About</NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" to="#">Contact</a>
+                        <NavLink className="nav-link" to="/contact">Contact</NavLink>
                     </li>
                 </ul>
                 <div className="buttons">
-                    <a to="" className='btn btn-outline-dark'>
+                    <NavLink to="/login" className='btn btn-outline-dark'>
                         <i className='fa fa-sign-in me-1'></i>
                         Login
-                    </a>
+                    </NavLink>
 
-                    <a to="" className='btn btn-outline-dark ms-2'>
+                    <NavLink to="/register" className='btn btn-outline-dark ms-2'>
                         <i className='fa fa-user-plus me-1'></i>
                         Register
-                    </a>
+                    </NavLink>
 
-                    <a to="" className='btn btn-outline-dark ms-2'>
+                    <NavLink to="/cart" className='btn btn-outline-dark ms-2'>
                         <i className='fa fa-shopping-cart me-1'></i>
                         Cart(0)
-                    </a>
+                    </NavLink>
                 </div>
                 </div>
             </div>
