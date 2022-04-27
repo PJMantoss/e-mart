@@ -22,7 +22,7 @@ const Products = () => {
       };
   
       return () => {
-        componentMounted.current = false;
+        componentMounted = false;
       }
     };
 
