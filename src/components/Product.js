@@ -18,6 +18,10 @@ const Product = () => {
     getProduct();
   }, []);
 
+  const Loading = () => {};
+
+  const ShowProduct = () => {};
+
   return (
     <div>
       <div className='container'>
