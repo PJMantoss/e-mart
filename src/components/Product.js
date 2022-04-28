@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 
 const Product = () => {
 
-  const {} = useParams();
+  const {id} = useParams();
   const [product, setProduct] = useState([]);
   const [loading, setLoading] = useState(false);
 
