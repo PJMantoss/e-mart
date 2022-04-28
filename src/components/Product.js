@@ -62,8 +62,8 @@ const Product = () => {
 
   return (
     <div>
-      <div className='container'>
-        <div className='row'>
+      <div className='container py-5'>
+        <div className='row py-5'>
           {<ShowProduct />}
         </div>
       </div>
