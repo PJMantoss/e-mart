@@ -7,6 +7,12 @@ const Product = () => {
   const [product, setProduct] = useState([]);
   const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
+    const getProduct = async () => {};
+
+    getProduct();
+  }, []);
+
   return (
     <div>Product</div>
   )
