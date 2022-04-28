@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
 const Product = () => {
+
+  const {} = useParams();
   const [product, setProduct] = useState([]);
   const [loading, setLoading] = useState(false);
 
