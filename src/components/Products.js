@@ -125,7 +125,7 @@ const filterProduct = (cat) => {
           </div>
         </div>
         <div className='row justify-content-center'>
-          {<ShowProducts />}
+          {loading ? <Loading /> : <ShowProducts />}
         </div>
       </div>
     </div>
