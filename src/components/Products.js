@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Skeleton from 'react-loading-skeleton';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useParams } from 'react-router-dom';
 
 const Products = () => {
   const [data, setData] = useState([]);
@@ -8,6 +8,8 @@ const Products = () => {
   const [loading, setLoading] = useState(false);
 //the useState hook causes a re-render. To prevent an infinite loop we use useRef
   let componentMounted = true;
+
+  const {id} = useParams();
 
   useEffect(() => {
     const getProducts = async () => {
