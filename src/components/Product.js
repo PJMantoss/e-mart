@@ -29,7 +29,13 @@ const Product = () => {
   //loading ? <Loading /> :
 
   const ShowProduct = () => {
-    return()
+    return(
+      <>
+        <div>
+          <img src={} alt={} />
+        </div>
+      </>
+    )
   };
 
   return (
