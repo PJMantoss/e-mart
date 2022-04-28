@@ -49,8 +49,12 @@ const Product = () => {
             $ {product.price}
           </h3>
           <p className='lead'>{product.description}</p>
-          <button className='btn btn-outline-dark'></button>
-          <button className='btn btn-dark'></button>
+          <button className='btn btn-outline-dark'>
+            Add to Cart
+          </button>
+          <button className='btn btn-dark'>
+            Go to Cart
+          </button>
         </div>
       </>
     )
