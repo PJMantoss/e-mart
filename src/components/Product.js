@@ -22,7 +22,7 @@ const Product = () => {
     <div>
       <div className='container'>
         <div className='row'>
-          {}
+          {loading ? :}
         </div>
       </div>
     </div>
