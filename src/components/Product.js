@@ -8,7 +8,9 @@ const Product = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const getProduct = async () => {};
+    const getProduct = async () => {
+      setLoading(true);
+    }; 
 
     getProduct();
   }, []);
