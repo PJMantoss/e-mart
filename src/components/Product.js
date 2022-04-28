@@ -21,7 +21,9 @@ const Product = () => {
   const Loading = () => {
     return(
       <>
-        Loading...
+        <div className='col-md-6'>
+          
+        </div>
       </>
     )
   };
