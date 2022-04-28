@@ -41,9 +41,9 @@ const Product = () => {
           <h1 className='display-5'>
             {product.title}
           </h1>
-          <p className='lead'>
+          <p className='lead fw-bolder'>
             Rating {product.rating && product.rating.rate}
-            <i className='fa fa-start'></i>
+            <i className='fa fa-star'></i>
           </p>
         </div>
       </>
