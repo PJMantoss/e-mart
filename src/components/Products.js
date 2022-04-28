@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Skeleton from 'react-loading-skeleton';
+import { NavLink } from 'react-router-dom';
 
 const Products = () => {
   const [data, setData] = useState([]);
@@ -100,7 +101,7 @@ const filterProduct = (cat) => {
                     <div className="card-body">
                       <h5 className="card-title">{product.title.substring(0, 12)}...</h5>
                       <p className="card-text lead fw-bold">${product.price}</p>
-                      <a to="#" className="btn btn-outline-dark">Buy Now</a>
+                      <NavLink to="#" className="btn btn-outline-dark">Buy Now</NavLink>
                     </div>
                   </div>
                 </div>
