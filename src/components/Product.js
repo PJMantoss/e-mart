@@ -50,7 +50,7 @@ const Product = () => {
           </h3>
           <p className='lead'>{product.description}</p>
           <button className='btn btn-outline-dark'></button>
-          <button className='btn btn-black'></button>
+          <button className='btn btn-dark'></button>
         </div>
       </>
     )
