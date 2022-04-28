@@ -49,6 +49,8 @@ const Product = () => {
             $ {product.price}
           </h3>
           <p className='lead'>{product.description}</p>
+          <button className='btn btn-outline-dark'></button>
+          <button className='btn btn-black'></button>
         </div>
       </>
     )
