@@ -32,7 +32,7 @@ const Product = () => {
     return(
       <>
         <div>
-          <img src={} alt={} />
+          <img src={product.image} alt={product.title} height="400px" width="400px" />
         </div>
       </>
     )
