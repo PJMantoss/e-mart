@@ -76,7 +76,7 @@ const Product = () => {
     <div>
       <div className='container py-5'>
         <div className='row py-4'>
-          {<ShowProduct />}
+          {loading ? <Loading /> : <ShowProduct />}
         </div>
       </div>
     </div>
