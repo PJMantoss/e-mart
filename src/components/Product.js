@@ -31,9 +31,10 @@ const Product = () => {
   const ShowProduct = () => {
     return(
       <>
-        <div>
+        <div className='col-md-6'>
           <img src={product.image} alt={product.title} height="400px" width="400px" />
         </div>
+        <div className=''></div>
       </>
     )
   };
