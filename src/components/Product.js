@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Skeleton from 'react-loading-skeleton';
 import { NavLink, useParams } from 'react-router-dom';
 
 const Product = () => {
@@ -22,7 +23,7 @@ const Product = () => {
     return(
       <>
         <div className='col-md-6'>
-          
+          <Skeleton />
         </div>
       </>
     )
