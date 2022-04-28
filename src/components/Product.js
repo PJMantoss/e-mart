@@ -49,7 +49,7 @@ const Product = () => {
             $ {product.price}
           </h3>
           <p className='lead'>{product.description}</p>
-          <button className='btn btn-outline-dark'>
+          <button className='btn btn-outline-dark px-4 py-2'>
             Add to Cart
           </button>
           <button className='btn btn-dark'>
