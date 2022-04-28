@@ -18,7 +18,13 @@ const Product = () => {
     getProduct();
   }, []);
 
-  const Loading = () => {};
+  const Loading = () => {
+    return(
+      <>
+        Loading...
+      </>
+    )
+  };
 
   const ShowProduct = () => {};
 
