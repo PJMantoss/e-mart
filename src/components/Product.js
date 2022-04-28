@@ -26,6 +26,8 @@ const Product = () => {
     )
   };
 
+  //loading ? <Loading /> :
+
   const ShowProduct = () => {};
 
   return (
