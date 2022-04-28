@@ -28,7 +28,9 @@ const Product = () => {
 
   //loading ? <Loading /> :
 
-  const ShowProduct = () => {};
+  const ShowProduct = () => {
+    return()
+  };
 
   return (
     <div>
