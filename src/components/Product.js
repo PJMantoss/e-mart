@@ -30,6 +30,7 @@ const Product = () => {
           <Skeleton height={75} />
           <Skeleton height={25} width={150} />
           <Skeleton height={50} />
+          <Skeleton height={150} />
           <Skeleton height={50} width={100} />
         </div>
       </>
