@@ -23,7 +23,7 @@ const Product = () => {
     return(
       <>
         <div className='col-md-6'>
-          <Skeleton />
+          <Skeleton height={400} />
         </div>
       </>
     )
