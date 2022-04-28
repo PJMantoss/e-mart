@@ -38,6 +38,9 @@ const Product = () => {
           <h4 className='text-uppercase text-black-50'>
             {product.category}
           </h4>
+          <h1 className='display-5'>
+            {product.title}
+          </h1>
         </div>
       </>
     )
