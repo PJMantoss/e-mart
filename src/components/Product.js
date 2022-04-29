@@ -10,6 +10,8 @@ const Product = () => {
   const [product, setProduct] = useState([]);
   const [loading, setLoading] = useState(false);
 
+  const dispatch = useDispatch();
+
   useEffect(() => {
     const getProduct = async () => {
       setLoading(true);
