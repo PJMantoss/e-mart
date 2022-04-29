@@ -15,13 +15,13 @@ const handleCart = (state = cart, action) => {
                    ...state,
                    {
                        ...product,
-                       qty: 1
+                       qty: 1,
                    }
                ];
            }
            break;
         case DELETEITEM:
-           return;
+            const product = state.find(x => x.id === product.id)
            break;
         default:
             ;
