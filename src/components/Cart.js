@@ -13,8 +13,8 @@ const Cart = () => {
                 />
             </div>
             <div className='col-md-4'>
-                <h3></h3>
-                <p></p>
+                <h3> {product.title} </h3>
+                <p className='lead fw-bold'></p>
                 <button className='' onClick={() => {}}></button>
                 <button className='' onClick={() => {}}></button>
             </div>
