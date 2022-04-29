@@ -12,7 +12,12 @@ const Cart = () => {
                     width="180px" 
                 />
             </div>
-            <div className='col-md-4'></div>
+            <div className='col-md-4'>
+                <h3></h3>
+                <p></p>
+                <button className='' onClick={() => {}}></button>
+                <button className='' onClick={() => {}}></button>
+            </div>
         </div>
     </div>
   )
