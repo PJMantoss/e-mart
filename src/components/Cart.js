@@ -18,10 +18,10 @@ const Cart = () => {
                     {product.qty} X ${product.price} = ${product.qty * product.price}
                 </p>
                 <button className='btn btn-otline-dark me-4' onClick={() => handleButton(product)}>
-                    <i className='fa fa-plus'></i>
+                    <i className='fa fa-minus'></i>
                 </button>
                 <button className='btn btn-otline-dark' onClick={() => handleButton(product)}>
-                    <i className='fa fa-minus'></i>
+                    <i className='fa fa-plus'></i>
                 </button>
             </div>
         </div>
