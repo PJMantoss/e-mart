@@ -5,7 +5,8 @@ const handleCart = (state = cart, action) => {
     switch(action.type){
         case ADDITEM:
             //Check if Product Already Exist
-           return;
+            const exist = state.find(x => x.id === product.id)
+           if(exist){}
            break;
         case DELETEITEM:
            return;
