@@ -17,8 +17,12 @@ const Cart = () => {
                 <p className='lead fw-bold'>
                     {product.qty} X ${product.price} = ${product.qty * product.price}
                 </p>
-                <button className='' onClick={() => {}}></button>
-                <button className='' onClick={() => {}}></button>
+                <button className='btn btn-otline-dark me-4' onClick={() => handleButton(product)}>
+                    <i className='fa fa-plus'></i>
+                </button>
+                <button className='btn btn-otline-dark' onClick={() => handleButton(product)}>
+                    <i className='fa fa-minus'></i>
+                </button>
             </div>
         </div>
     </div>
