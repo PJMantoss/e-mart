@@ -7,6 +7,7 @@ const handleCart = (state = cart, action) => {
             //Check if Product Already Exist
             const exist = state.find(x => x.id === product.id)
            if(exist){
+               //Increase the Quantity
             return state.map(x => x.id === product.id ? {...x, qty: x.qty + 1} : x);
            }
            break;
