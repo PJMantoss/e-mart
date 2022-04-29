@@ -11,6 +11,9 @@ const Product = () => {
   const [loading, setLoading] = useState(false);
 
   const dispatch = useDispatch();
+  const addProduct = (product) => {
+    dispatch(addCart(product))
+  }
 
   useEffect(() => {
     const getProduct = async () => {
