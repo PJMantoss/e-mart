@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 
 const Navbar = () => {
     const state = useSelector(state => state.handleCart);
-    
+
   return (
     <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light bg-white py-3 shadow-sm">
@@ -52,7 +52,7 @@ const Navbar = () => {
 
                     <NavLink to="/cart" className='btn btn-outline-dark ms-2'>
                         <i className='fa fa-shopping-cart me-1'></i>
-                        Cart(0)
+                        Cart({ state.length })
                     </NavLink>
                 </div>
                 </div>
