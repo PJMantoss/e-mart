@@ -13,7 +13,10 @@ const handleCart = (state = cart, action) => {
                const product = action.payload;
                return [
                    ...state,
-                   {}
+                   {
+                       ...product,
+                       qty: 1
+                   }
                ];
            }
            break;
