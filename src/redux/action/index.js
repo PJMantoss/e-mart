@@ -5,3 +5,11 @@ export const addCart = (product) => {
         payload: product
     }
 };
+
+// Delete Item from Cart 
+export const delCart = (product) => {
+    return {
+        type: "ADDCART",
+        payload: product
+    }
+};
