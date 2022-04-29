@@ -1,2 +1,7 @@
 // Add Item to Cart 
-export const addCart = () => {};
+export const addCart = () => {
+    return {
+        type: "ADDCART",
+        payload: product
+    }
+};
