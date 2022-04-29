@@ -5,7 +5,12 @@ const Cart = () => {
     <div>
         <div className='row'>
             <div className='col-md-4'>
-                <img src={} height="200px" width="180px" />
+                <img 
+                    src={product.image} 
+                    alt={product.title} 
+                    height="200px" 
+                    width="180px" 
+                />
             </div>
             <div className='col-md-4'></div>
         </div>
