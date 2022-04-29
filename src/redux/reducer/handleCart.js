@@ -1,3 +1,3 @@
 const cart = [];
 
-const handleCart = (state, action) => {};
+const handleCart = (state = cart, action) => {};
