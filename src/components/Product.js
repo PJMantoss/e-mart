@@ -14,8 +14,10 @@ const Product = () => {
 
   const dispatch = useDispatch();
 
-  const addProduct = (product) => {
-    dispatch(addCart(product))
+  const handleCartBtn = (product) => {
+    if(cartBtn === "Add to Cart"){
+      dispatch(addCart(product));
+    }else{}
   }
 
   useEffect(() => {
