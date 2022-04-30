@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 
 const Cartbtn = () => {
     //Get a state of items
-    const state = useSelector(state => state.addItems);
+    const state = useSelector(state => state.handleCart);
   return (
     <>
         <NavLink to="/cart" className="btn btn-outline-primary ms-2">
