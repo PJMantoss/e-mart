@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 const Cartbtn = () => {
+    //Get a state of items
     const state = useSelector(state => state.addItems);
   return (
     <>
