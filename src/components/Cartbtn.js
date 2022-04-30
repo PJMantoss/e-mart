@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 const Cartbtn = () => {
   return (
     <>
-        <NavLink>
+        <NavLink to="/cart" className="btn btn-outline-primary ms-2">
             <span></span>
         </NavLink>
     </>
