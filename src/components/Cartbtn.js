@@ -5,7 +5,9 @@ import { useSelector } from 'react-redux';
 const Cartbtn = () => {
   return (
     <>
-        <NavLink></NavLink>
+        <NavLink>
+            <span></span>
+        </NavLink>
     </>
   )
 }
