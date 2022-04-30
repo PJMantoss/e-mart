@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 const Cartbtn = () => {
-    const state = useSelector(state => state.addItem);
+    const state = useSelector(state => state.addItems);
   return (
     <>
         <NavLink to="/cart" className="btn btn-outline-primary ms-2">
