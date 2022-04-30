@@ -17,8 +17,11 @@ const Product = () => {
   const handleCartBtn = (product) => {
     if(cartBtn === "Add to Cart"){
       dispatch(addCart(product));
-      setCartBtn("Remove from Cart")
-    }else{}
+      setCartBtn("Remove from Cart");
+    }else{
+      dispatch(delCart(product));
+      setCartBtn("Add to Cart");
+    }
   }
 
   useEffect(() => {
