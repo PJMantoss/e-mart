@@ -7,11 +7,13 @@ import { NavLink, useParams } from 'react-router-dom';
 const Product = () => {
 
   const {id} = useParams();
+
   const [product, setProduct] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [cartBtn, setCartBtn] = useState("Add to Cart")
 
   const dispatch = useDispatch();
-  
+
   const addProduct = (product) => {
     dispatch(addCart(product))
   }
