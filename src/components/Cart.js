@@ -83,6 +83,8 @@ const Cart = () => {
   return (
     <div>
         {state.length}
+        {state.length}
+        {state.length}
     </div>
   )
 }
