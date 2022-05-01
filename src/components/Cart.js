@@ -82,7 +82,7 @@ const Cart = () => {
 
   return (
     <div>
-        
+        {state.length}
     </div>
   )
 }
