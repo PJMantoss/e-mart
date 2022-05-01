@@ -17,7 +17,11 @@ const Cart = () => {
         dispatch(delCart(item));
     };
 
-    const emptyCart = () => {};
+    const emptyCart = () => {
+        return(
+            <div className=''></div>
+        )
+    };
 
     const cartItems = () => {};
 
