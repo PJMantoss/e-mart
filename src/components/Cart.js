@@ -83,7 +83,7 @@ const Cart = () => {
   return (
     <div>
         {state.length === 0 && emptyCart()}
-        {state.length}
+        {state.length !== 0 && cartItems()}
         {state.length}
     </div>
   )
