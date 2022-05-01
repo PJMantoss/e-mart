@@ -19,7 +19,7 @@ const Cart = () => {
 
     const emptyCart = () => {
         return(
-            <div className=''>
+            <div className='px-4 my-5 bg-light rounded-3 py-5'>
                 <div className=''>
                     <div className=''>
                         <h3></h3>
