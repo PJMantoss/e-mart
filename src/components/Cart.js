@@ -29,7 +29,11 @@ const Cart = () => {
         )
     };
 
-    const cartItems = () => {};
+    const cartItems = product => {
+        return(
+            <></>
+        )
+    };
 
     const buttons = () => {};
 
