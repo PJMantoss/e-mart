@@ -10,3 +10,6 @@ An E-Commerce Store built with React, Redux, Bootstrap and Fake Store API
 - react-redux
 - bootstrap
 - font-awesome
+
+#### Date
+April 25th, 2022
