@@ -32,7 +32,8 @@ const Cart = () => {
     const cartItems = product => {
         return(
             <>
-                <div className='row'>
+            <div className='container py-4'>
+                <div className='row justify-content-center'>
                     <div className='col-md-4'>
                         <img 
                             src={product.image} 
@@ -54,6 +55,7 @@ const Cart = () => {
                         </button>
                     </div>
                 </div>
+            </div>
             </>
         )
     };
