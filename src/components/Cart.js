@@ -84,7 +84,7 @@ const Cart = () => {
     <div>
         {state.length === 0 && emptyCart()}
         {state.length !== 0 && cartItems()}
-        {state.length}
+        {state.length !== 0 && buttons()}
     </div>
   )
 }
