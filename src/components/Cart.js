@@ -21,7 +21,9 @@ const Cart = () => {
         return(
             <div className=''>
                 <div className=''>
-                    <div className=''></div>
+                    <div className=''>
+                        <h3></h3>
+                    </div>
                 </div>
             </div>
         )
