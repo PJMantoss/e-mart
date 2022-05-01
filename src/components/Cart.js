@@ -4,6 +4,8 @@ import { NavLink } from 'react-router-dom';
 import { addCart, delCart } from '../redux/action/index';
 
 const Cart = () => {
+
+    const state = useSelector(state => state.handleCart)
     const emptyCart = () => {};
 
     const cartItems = () => {};
