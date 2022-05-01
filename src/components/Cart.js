@@ -20,8 +20,8 @@ const Cart = () => {
     const emptyCart = () => {
         return(
             <div className='px-4 my-5 bg-light rounded-3 py-5'>
-                <div className=''>
-                    <div className=''>
+                <div className='container py-4'>
+                    <div className='row'>
                         <h3></h3>
                     </div>
                 </div>
