@@ -10,10 +10,12 @@ const Cart = () => {
     const dispatch = useDispatch();
 
     const handleAdd = item => {
-        dispatch(addCart(item))
+        dispatch(addCart(item));
     };
 
-    const handleDel = item => {};
+    const handleDel = item => {
+        dispatch(delCart(item));
+    };
 
     const emptyCart = () => {};
 
