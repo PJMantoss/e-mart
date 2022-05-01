@@ -19,7 +19,9 @@ const Cart = () => {
 
     const emptyCart = () => {
         return(
-            <div className=''></div>
+            <div className=''>
+                <div className=''></div>
+            </div>
         )
     };
 
