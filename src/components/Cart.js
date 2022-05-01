@@ -5,6 +5,11 @@ import { addCart, delCart } from '../redux/action/index';
 
 const Cart = () => {
     const emptyCart = () => {};
+
+    const cartItems = () => {};
+
+    const buttons = () => {};
+
   return (
     <div>
         <div className='row'>
