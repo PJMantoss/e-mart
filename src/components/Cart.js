@@ -8,7 +8,11 @@ const Cart = () => {
     const state = useSelector(state => state.handleCart);
 
     const dispatch = useDispatch();
-    
+
+    const handleAdd = () => {};
+
+    const handleDel = () => {};
+
     const emptyCart = () => {};
 
     const cartItems = () => {};
