@@ -9,9 +9,9 @@ const Cart = () => {
 
     const dispatch = useDispatch();
 
-    const handleAdd = () => {};
+    const handleAdd = item => {};
 
-    const handleDel = () => {};
+    const handleDel = item => {};
 
     const emptyCart = () => {};
 
