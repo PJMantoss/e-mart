@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import Skeleton from 'react-loading-skeleton';
+// import Skeleton from 'react-loading-skeleton';
 import { NavLink, useParams } from 'react-router-dom';
 
 const Products = () => {
   const [data, setData] = useState([]);
   const [filter, setFilter] = useState(data);
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
 
   let componentMounted = true;
 
@@ -14,15 +14,15 @@ const Products = () => {
   useEffect(() => {
     const getProducts = async () => {
 
-      setLoading(true);
+      // setLoading(true);
 
       const response = await fetch("https://fakestoreapi.com/products");
 
       if(componentMounted){
-        setLoading(true);
+        // setLoading(true);
         setData(await response.clone().json());
         setFilter(await response.json());
-        setLoading(false);
+        // setLoading(false);
         console.log(filter);
       };
   
@@ -34,24 +34,24 @@ const Products = () => {
     getProducts();
   }, []);
 
-  const Loading = () => {
-    return(
-      <>
-          <div className='col-md-3'>
-            <Skeleton height={350} />
-          </div>
-          <div className='col-md-3'>
-            <Skeleton height={350} />
-          </div>
-          <div className='col-md-3'>
-            <Skeleton height={350} />
-          </div>
-          <div className='col-md-3'>
-            <Skeleton height={350} />
-          </div>
-      </>
-    )
-  };
+  // const Loading = () => {
+  //   return(
+  //     <>
+  //         <div className='col-md-3'>
+  //           <Skeleton height={350} />
+  //         </div>
+  //         <div className='col-md-3'>
+  //           <Skeleton height={350} />
+  //         </div>
+  //         <div className='col-md-3'>
+  //           <Skeleton height={350} />
+  //         </div>
+  //         <div className='col-md-3'>
+  //           <Skeleton height={350} />
+  //         </div>
+  //     </>
+  //   )
+  // };
 //loading ? <Loading /> : 
 
 const filterProduct = (cat) => {
