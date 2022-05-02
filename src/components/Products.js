@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 // import Skeleton from 'react-loading-skeleton';
-import { NavLink, useParams } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Products = () => {
   const [data, setData] = useState([]);
