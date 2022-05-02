@@ -9,8 +9,6 @@ const Products = () => {
 
   let componentMounted = true;
 
-  const {id} = useParams();
-
   useEffect(() => {
     const getProducts = async () => {
 
