@@ -1,6 +1,6 @@
 {
   "name": "e-mart",
-  "home": "https://pjmantoss.github.io/e-mart",
+  "homepage": "https://pjmantoss.github.io/e-mart",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
