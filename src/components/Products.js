@@ -60,7 +60,7 @@ const filterProduct = (cat) => {
   const ShowProducts = () => {
     return(
       <>
-          <div className='container d-flex mx-auto align-items-center mb-5 pb-5'>
+          <div className='container d-flex justify-content-centermb-5 pb-5'>
 
             <button className='btn btn-outline-dark me-2' onClick={() => setFilter(data)}>All</button>
             
