@@ -99,7 +99,7 @@ const filterProduct = (cat) => {
               <>
                 <div className='col-md-3 mb-4'>
                   <div className="card">
-                    <img src={product.image} className="card-img-top img-fluid" alt={product.title} height="250px" />
+                    <img src={product.image} className="card-img-top" alt={product.title} height="250px" />
                     <div className="card-body">
                       <h5 className="card-title">{product.title.substring(0, 12)}...</h5>
                       <p className="card-text lead fw-bold">${product.price}</p>
