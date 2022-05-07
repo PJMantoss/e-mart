@@ -2,6 +2,7 @@
     .row {
         width: 90%;
         text-align: center;
+        flex-direction: column;
     }
 
     /* .col-md-6 img {
