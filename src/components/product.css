@@ -1,4 +1,5 @@
 @media only screen and (max-width: 600px){
-    .col-md-6 img {
+    .col-md-6 {
+        width: 90%;
     }
 };
