@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { addCart, delCart } from "../redux/action/index"
 // import Skeleton from 'react-loading-skeleton';
 import { NavLink, useParams } from 'react-router-dom';
+import './product.css';
 
 const Product = () => {
 
