@@ -59,9 +59,9 @@ const Product = () => {
 
   const ShowProduct = () => {
     return(
-      <div className='wrapper'>
+      <>
         <div className='col-md-6'>
-          <img className='img-fluid' src={product.image} alt={product.title} />
+          <img src={product.image} alt={product.title} height="400px" width="400px" />
         </div>
         <div className='col-md-6'>
           <h4 className='text-uppercase text-black-50'>
@@ -88,7 +88,7 @@ const Product = () => {
             Go to Cart
           </NavLink>
         </div>
-      </div>
+      </>
     )
   };
 
