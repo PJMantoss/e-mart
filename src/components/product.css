@@ -1,8 +1,7 @@
 @media only screen and (max-width: 600px){
-    .container {
-        flex-direction: column;
-        justify-content: center;
+    .row {
         width: 90%;
+        text-align: center;
     }
 
     /* .col-md-6 img {
