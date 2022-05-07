@@ -2,6 +2,7 @@
     .row {
         width: 90%;
         text-align: center;
+        justify-content: center;
         padding: 0;
     }
 
