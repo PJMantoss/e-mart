@@ -1,8 +1,8 @@
 @media only screen and (max-width: 600px){
-    .wrapper {
+    .container {
         flex-direction: column;
         justify-content: center;
-        width: 20%;
+        width: 90%;
     }
 
     /* .col-md-6 img {
