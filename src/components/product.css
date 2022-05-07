@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px){
     .col-md-6 {
-        width: 80%;
+        width: 70%;
     }
 
     .col-md-6 img {
@@ -9,7 +9,7 @@
     }
     
     .col-md-6 p h4{
-        width: inherit;
+        width: 100%;
         text-align: center;
     }
 };

@@ -61,7 +61,7 @@ const Product = () => {
     return(
       <>
         <div className='col-md-6'>
-          <img className='img-fluid' src={product.image} alt={product.title} height="400px" width="400px" />
+          <img className='img-fluid' src={product.image} alt={product.title} />
         </div>
         <div className='col-md-6'>
           <h4 className='text-uppercase text-black-50'>
