@@ -5,6 +5,7 @@ import Products from './pages/Products';
 import Product from './components/Product';
 import { Routes, Route } from 'react-router-dom';
 import Cart from './pages/Cart';
+import Footer from './components/Footer';
 
 function App() {
   return (
