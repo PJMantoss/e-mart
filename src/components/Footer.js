@@ -50,13 +50,13 @@ const Footer = () => {
                     <span class="nav-link"><i class="fa fa-phone" aria-hidden="true"></i> +47 45 80 80 80</span>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-comments"></i>Live chat</a>
+                    <a class="nav-link" href="#"><i class="fas fa-comments"></i> Live chat</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-envelope"></i>Contact us</a>
+                    <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-star"></i>Give feedback</a>
+                    <a class="nav-link" href="#"><i class="fas fa-star"></i> Give feedback</a>
                 </li>
                 </ul>
             </div>
