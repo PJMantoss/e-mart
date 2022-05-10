@@ -10,10 +10,10 @@ const Footer = () => {
                 <div class="col-md-4 footer-column">
                     <ul class="nav flex-column">
                     <li class="nav-item">
-                        <span class="footer-title">Product</span>
+                        <span class="footer-title">Quick Links</span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Product 1</a>
+                        <a class="nav-link" href="#">Men's Clothing</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Product 2</a>
