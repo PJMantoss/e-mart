@@ -10,9 +10,7 @@ const Footer = () => {
                 <div class="col-md-4 footer-column">
                     <ul class="nav flex-column">
                     <li class="nav-item">
-                        <NavLink to="/">
-                            <span class="footer-title">Home</span>
-                        </NavLink>
+                        <span class="footer-title"><NavLink to="/">Home</NavLink></span>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Product 1</a>
