@@ -62,7 +62,9 @@ const Footer = () => {
             </div>
             </div>
 
-            <div class="text-center"></div>
+            <div class="text-center">
+                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+            </div>
             
             <div class="row text-center">
             <div class="col-md-4 box">
