@@ -73,13 +73,13 @@ const Footer = () => {
                 <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                     <a href="#">
-                    <i class="fab fa-twitter"></i>
-                </a>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
                 </li>
                 <li class="list-inline-item">
                     <a href="#">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
                 </li>
                 <li class="list-inline-item">
                     <a href="#">
