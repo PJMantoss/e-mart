@@ -72,7 +72,7 @@ const Footer = () => {
             <div class="col-md-4 box">
                 <ul class="list-inline social-buttons">
                     <li class="list-inline-item">
-                        <a href="#">
+                        <a href="https://twitter.com/pjmantoss" target="_blank">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                     </li>
