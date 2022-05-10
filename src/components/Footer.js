@@ -77,7 +77,7 @@ const Footer = () => {
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="#">
+                    <a href="https://twitter.com/pjmantoss" target="_blank">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                     </a>
                 </li>
