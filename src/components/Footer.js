@@ -82,7 +82,7 @@ const Footer = () => {
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/pj-mantoss-55a372a3/" target="_blank">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                     </a>
                 </li>
