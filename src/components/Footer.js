@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
             </div>
 
-            <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
+            <div class="text-center"></div>
             
             <div class="row text-center">
             <div class="col-md-4 box">
