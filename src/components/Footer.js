@@ -16,10 +16,10 @@ const Footer = () => {
                         <a class="nav-link" href="#">Men's Clothing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Product 2</a>
+                        <a class="nav-link" href="#">Women's Clothing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Plans & Prices</a>
+                        <a class="nav-link" href="#">Jewelery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Frequently asked questions</a>
