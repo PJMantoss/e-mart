@@ -83,8 +83,8 @@ const Footer = () => {
                 </li>
                 <li class="list-inline-item">
                     <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
                 </li>
                 </ul>
             </div>
