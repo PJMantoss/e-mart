@@ -56,7 +56,7 @@ const Footer = () => {
                     <a class="nav-link" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-star"></i> Give feedback</a>
+                    <a class="nav-link" href="#"><i class="fa fa-star" aria-hidden="true"></i> Give feedback</a>
                 </li>
                 </ul>
             </div>
