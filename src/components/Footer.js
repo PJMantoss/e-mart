@@ -47,10 +47,14 @@ const Footer = () => {
                             <span class="footer-title">Contact & Support</span>
                         </li>
                         <li class="nav-item">
-                            <span class="nav-link"><i class="fa fa-phone" aria-hidden="true"></i> +234 809 55 44 003</span>
+                            <span class="nav-link">
+                                <i class="fa fa-phone" aria-hidden="true"></i> +234 809 55 44 003
+                            </span>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="fa fa-comments" aria-hidden="true"></i> Live chat</a>
+                            <a class="nav-link" href="#">
+                                <i class="fa fa-comments" aria-hidden="true"></i> Live chat
+                            </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact us</a>
