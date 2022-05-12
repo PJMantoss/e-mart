@@ -73,7 +73,11 @@ const Cart = () => {
         return(
             <div className='container'>
                 <div className='row'>
-                    <NavLink to='/checkout' className='btn btn-outline-dark mb-5 w-25 mx-auto d-sm-block'>
+                    <NavLink to='/checkout' className='btn btn-outline-dark mb-5 w-25 mx-auto d-sm-none'>
+                        Proceed To Checkout
+                    </NavLink>
+
+                    <NavLink to='/checkout' className='btn btn-outline-dark mb-1 w-55 mx-auto d-sm-block'>
                         Proceed To Checkout
                     </NavLink>
                 </div>
