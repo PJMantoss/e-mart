@@ -77,7 +77,7 @@ const Cart = () => {
                         Proceed To Checkout
                     </NavLink>
 
-                    <NavLink to='/checkout' className='btn btn-outline-dark mb-5 w-50 mx-auto d-sm-block'>
+                    <NavLink to='/checkout' className='btn btn-outline-dark mb-5 w-50 mx-auto'>
                         Proceed To Checkout
                     </NavLink>
                 </div>
