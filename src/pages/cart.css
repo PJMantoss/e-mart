@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px){
-    .container .row #checkout {
+    .container .row .btn .btn-outline-dark {
         width: 100px;
         margin: 0;
     }
