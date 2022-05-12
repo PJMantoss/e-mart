@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px){
-    .row NavLink {
+    .row .btn {
         width: 80%;
         margin: 0;
     }
