@@ -6,6 +6,7 @@ import Product from './components/Product';
 import { Routes, Route } from 'react-router-dom';
 import Cart from './pages/Cart';
 import Signup from './pages/Signup';
+import Login from './pages/Login';
 import Footer from './components/Footer';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Route path="/products/:id" element={<Product />} />
       <Route path="/cart" element={<Cart />} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="/login" element={<Login />} />
     </Routes>
     <Footer />
     </>
