@@ -3,8 +3,7 @@ import './signup.css';
 
 const Signup = () => {
   return (
-    <div className='container'>
-      <div className='wrapper'>
+    <>
         <h1 className='title'>CREATE AN ACCOUNT</h1>
         <form>
           <input placeholder="first name" />
@@ -19,8 +18,7 @@ const Signup = () => {
           </span>
           <button>CREATE</button>
         </form>
-      </div>
-    </div>
+    </>
   )
 }
 
