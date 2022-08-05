@@ -5,7 +5,7 @@ const Signup = () => {
   return (
     <>
         <h1 className='text-center my-4'>CREATE AN ACCOUNT</h1>
-        <form className="w-75 m-auto">
+        <form className="w-75 mx-auto mb-5">
           <div className="mb-3">
             <label for="exampleInputEmail1" className="form-label">Name</label>
             <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
