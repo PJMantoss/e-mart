@@ -4,7 +4,7 @@ import './signup.css';
 const Signup = () => {
   return (
     <>
-        <h1 className='title'>CREATE AN ACCOUNT</h1>
+        <h1 className='text-center my-4'>CREATE AN ACCOUNT</h1>
         <form className="w-75 m-auto">
           <div className="mb-3">
             <label for="exampleInputEmail1" className="form-label">Name</label>
