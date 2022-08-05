@@ -45,7 +45,7 @@ const Navbar = () => {
                         Login
                     </NavLink>
 
-                    <NavLink to="/register" className='btn btn-outline-dark ms-2'>
+                    <NavLink to="/signup" className='btn btn-outline-dark ms-2'>
                         <i className='fa fa-user-plus me-1'></i>
                         Register
                     </NavLink>
